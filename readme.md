@@ -1,2 +1,2 @@
-part 1 is commit 
+part 1 is commited 
 and pushed!

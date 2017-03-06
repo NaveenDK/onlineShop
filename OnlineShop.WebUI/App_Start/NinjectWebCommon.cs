@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Moq;
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(OnlineShop.WebUI.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(OnlineShop.WebUI.App_Start.NinjectWebCommon), "Stop")]
 
@@ -5,11 +7,15 @@ namespace OnlineShop.WebUI.App_Start
 {
     using System;
     using System.Web;
+    using OnlineShop.Domain.Abstract;
 
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
     using Ninject;
     using Ninject.Web.Common;
+    using Domain.Entities;
+
+    //using Moq;
 
     public static class NinjectWebCommon 
     {
@@ -61,6 +67,22 @@ namespace OnlineShop.WebUI.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new List<Product>{
+
+                new Product { Name = "Football", Price = 23 },
+                 new Product { Name = "SkateBoard", Price = 223 },
+                  new Product { Name = "Shoes", Price =123 }
+
+
+            });//mock1.Setup(mock1=>m.Products).Returns(new List<IProductRepository>);
+
+            kernel.Bind<IProductRepository>().ToConstant(mock.Object);
+
+
+
+
+
         }        
     }
 }

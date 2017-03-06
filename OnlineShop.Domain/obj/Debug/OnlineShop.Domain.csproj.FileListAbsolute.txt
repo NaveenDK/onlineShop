@@ -1,0 +1,10 @@
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.dll.config
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\onlineShop2\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.pdb
